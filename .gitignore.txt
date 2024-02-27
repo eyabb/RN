@@ -1,0 +1,47 @@
+@"
+# Fichiers binaires
+*.exe
+*.dll
+*.pdb
+
+# Fichiers de génération
+obj/
+bin/
+
+# Fichiers d'environnement
+*.vscode
+*.suo
+*.user
+*.sln.docstates
+
+# Fichiers de configuration
+/appsettings.json
+/appsettings.*.json
+launchSettings.json
+
+# Fichiers de package
+packages/
+*.nupkg
+*.paket
+*.paket.restore.log
+
+# Fichiers de build Visual Studio
+*.obj
+*.cache
+*.log
+*.jfm
+*.apk
+*.aab
+*.aar
+
+# Dossiers de cache et de logs
+logs/
+node_modules/
+temp/
+yarn-error.log
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*.old
+"@ | Out-File -FilePath .gitignore -Encoding utf8
